@@ -14,45 +14,48 @@
 }
 
 /* font sizes */
-.B50 {
+.b50 {
   font-size: 3.125rem;
   font-weight: bold;
 }
-.B65 {
+.b65 {
   font-size: 4.063rem;
   font-weight: bold;
 }
-.B40 {
+.b40 {
   font-size: 2.5rem;
   font-weight: bold;
 }
-.B20 {
+.b20 {
   font-size: 1.25rem;
   font-weight: bold;
 }
-.SB28 {
+.sb28 {
   font-size: 1.375rem;
   font-weight: 600;
 }
-.B22 {
+.b22 {
   font-size: 1.375rem;
   font-weight: bold;
 }
-.M22 {
+.m22 {
   font-size: 1.375rem;
   font-weight: 500;
 }
-.R22 {
+.r22 {
   font-size: 1.375rem;
   font-weight: 400;
 }
-.SB16 {
+.sb16 {
   font-size: 1rem;
   font-weight: 600;
 }
-.R16 {
+.r16 {
   font-size: 1rem;
   font-weight: 400;
+}
+.b {
+  font-weight: bold;
 }
 
 /* colors */
