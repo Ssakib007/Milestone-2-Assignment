@@ -18,8 +18,17 @@ header {
   margin-top: 25px;
   margin-bottom: 115px;
 }
+
+/* flex and button */
 .flex {
   display: flex;
+}
+
+.btn {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(233, 90, 8, 1);
+  border: none;
+  padding: 19px 80px;
 }
 
 /* navbar related styles */
@@ -54,11 +63,40 @@ header {
   width: 100%;
 }
 
-/* plants section */
+/* our plants related styles*/
+.plant-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  row-gap: 30px;
+}
+
 .plants-description {
   text-align: center;
 }
 
 .our-plants {
   margin-bottom: 50px;
+}
+
+.plant-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.plant-card img {
+  width: 100%;
+}
+
+.no-gap p {
+  margin-bottom: 0;
+}
+
+.no-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
 }

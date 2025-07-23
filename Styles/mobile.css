@@ -1,6 +1,11 @@
 @media screen and (max-width: 576px) {
+  /* generals */
   header {
     margin-bottom: 65px;
+  }
+
+  .btn {
+    padding: 19px 30px;
   }
 
   .fc4 {
@@ -9,6 +14,7 @@
   .fc5 {
     display: none;
   }
+
   /* navbar related styles */
   .navbar {
     gap: 150px;
@@ -25,16 +31,24 @@
   .banner-description {
     margin-top: 15px;
   }
-}
-/* our plants related styles */
-.mobile-hide-br {
-  display: none;
-}
 
-.plants-title {
-  margin-bottom: 16px;
-}
-.plants-description {
-  padding-left: 30px;
-  padding-right: 30px;
+  /* our plants related styles */
+  .mobile-hide-br {
+    display: none;
+  }
+
+  .plants-title {
+    margin-bottom: 16px;
+  }
+  .plants-description {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .plant-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+    padding: 20px;
+  }
 }
