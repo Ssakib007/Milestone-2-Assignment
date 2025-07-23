@@ -53,3 +53,12 @@ header {
 .banner-img img {
   width: 100%;
 }
+
+/* plants section */
+.plants-description {
+  text-align: center;
+}
+
+.our-plants {
+  margin-bottom: 50px;
+}
