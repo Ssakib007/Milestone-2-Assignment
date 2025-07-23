@@ -9,7 +9,7 @@
   justify-items: center;
 }
 body {
-  /* border: 2px solid blue; */
+  /* border: 2px dashed blue; */
   max-width: 1140px;
   justify-items: center;
 }
@@ -27,9 +27,29 @@ header {
   gap: 590px;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 120px;
 }
 .menu {
   justify-content: space-between;
   gap: 50px;
   list-style: none;
+}
+
+.nav-img img {
+  width: 100%;
+}
+
+/* banner related styles */
+
+.banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.banner-description {
+  margin-top: 60px;
+}
+
+.banner-img img {
+  width: 100%;
 }

@@ -92,3 +92,12 @@
 .fc8 {
   color: rgba(107, 114, 128, 1);
 }
+
+@media screen and (max-width: 576px) {
+  .b65 {
+    font-size: 2rem;
+  }
+  .r22 {
+    font-size: 1rem;
+  }
+}

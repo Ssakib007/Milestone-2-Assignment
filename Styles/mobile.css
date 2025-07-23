@@ -1,11 +1,24 @@
 @media screen and (max-width: 576px) {
-  .navbar {
-    gap: 150px;
-  }
   .fc4 {
     display: none;
   }
   .fc5 {
     display: none;
+  }
+  /* navbar related styles */
+  .navbar {
+    gap: 150px;
+    margin-bottom: 28px;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  /* banner related styles */
+  .banner-text {
+    padding: 20px;
+  }
+  .banner-description {
+    margin-top: 15px;
   }
 }
