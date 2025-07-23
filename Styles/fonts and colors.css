@@ -1,0 +1,91 @@
+/* fonts */
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* font sizes */
+.B50 {
+  font-size: 3.125rem;
+  font-weight: bold;
+}
+.B65 {
+  font-size: 4.063rem;
+  font-weight: bold;
+}
+.B40 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.B20 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.SB28 {
+  font-size: 1.375rem;
+  font-weight: 600;
+}
+.B22 {
+  font-size: 1.375rem;
+  font-weight: bold;
+}
+.M22 {
+  font-size: 1.375rem;
+  font-weight: 500;
+}
+.R22 {
+  font-size: 1.375rem;
+  font-weight: 400;
+}
+.SB16 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.R16 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* colors */
+
+/* main black */
+.fc1 {
+  color: rgba(0, 0, 0, 1);
+}
+/* orange */
+.fc2 {
+  color: rgba(233, 90, 8, 1);
+}
+/* description color */
+.fc3 {
+  color: rgba(0, 0, 0, 0.5);
+}
+/* Navbar Home */
+.fc4 {
+  color: rgba(37, 36, 50, 1);
+}
+/* navbar shop about us */
+.fc5 {
+  color: rgba(137, 135, 161, 1);
+}
+/* black 2 */
+.fc6 {
+  color: rgba(17, 17, 17, 1);
+}
+/* white */
+.fc7 {
+  color: rgba(255, 255, 255, 1);
+}
+/* footer */
+.fc8 {
+  color: rgba(107, 114, 128, 1);
+}
