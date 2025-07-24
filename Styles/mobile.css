@@ -5,13 +5,17 @@
   }
 
   .btn {
-    padding: 19px 30px;
+    padding: 19px 33px;
   }
 
   .fc4 {
     display: none;
   }
   .fc5 {
+    display: none;
+  }
+
+  .mobile-hide-br {
     display: none;
   }
 
@@ -33,9 +37,6 @@
   }
 
   /* our plants related styles */
-  .mobile-hide-br {
-    display: none;
-  }
 
   .plants-title {
     margin-bottom: 16px;
@@ -50,5 +51,15 @@
     column-gap: 20px;
     row-gap: 30px;
     padding: 20px;
+  }
+  /* latest deal related styles */
+  .latest-deal-title {
+    margin-bottom: 16px;
+  }
+
+  .latest-deal-description {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 50px;
   }
 }

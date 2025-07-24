@@ -64,6 +64,10 @@ header {
 }
 
 /* our plants related styles*/
+.plants {
+  margin-bottom: 100px;
+}
+
 .plant-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -99,4 +103,60 @@ header {
   flex-direction: column;
   gap: 10px;
   align-items: center;
+}
+
+/* latest deal related styles */
+.latest-deal-texts {
+  margin-bottom: 120px;
+}
+
+.latest-deal-title {
+  margin-bottom: 30px;
+}
+
+.latest-deal-description {
+  text-align: center;
+}
+.deal-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(2, auto);
+  gap: 20px;
+  padding: 20px;
+  height: 420px;
+  width: 1140px;
+}
+
+.deal-box {
+  color: white;
+  align-content: center;
+}
+.deal-box a {
+  color: white;
+}
+
+.deal-box1 {
+  grid-column: 1;
+  grid-row: 1;
+  background-image: url(../assets/deal-bloom.png);
+  width: 100%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.deal-box2 {
+  grid-column: 1;
+  grid-row: 2;
+  background-image: url(../assets/deal-ana.png);
+  width: 100%;
+  text-align: center;
+  border-radius: 15px;
+}
+.deal-box3 {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  background-image: url(../assets/deal-zabo.png);
+  width: 100%;
+  text-align: center;
+  border-radius: 22px;
 }
