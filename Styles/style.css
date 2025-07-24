@@ -5,13 +5,12 @@
   padding: 0;
   margin: 0;
   /* border: 2px solid red; */
-  max-width: 1450px;
+  max-width: 1440px;
   justify-items: center;
 }
 body {
   /* border: 2px dashed blue; */
   max-width: 1140px;
-  justify-items: center;
 }
 header {
   /* border: 2px solid blueviolet; */
@@ -125,6 +124,7 @@ header {
   padding: 20px;
   height: 420px;
   width: 1140px;
+  margin-bottom: 120px;
 }
 
 .deal-box {
@@ -180,6 +180,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   padding: 120px 20px;
+  margin-bottom: 50px;
 }
 
 .join-section-title {
@@ -196,4 +197,42 @@ header {
   margin-right: 0px;
   padding: 20px;
   border: none;
+}
+
+/* footer section related styles */
+footer {
+  justify-items: left;
+}
+
+.footer-section {
+  justify-content: space-between;
+  gap: 110px;
+  margin-bottom: 50px;
+  justify-items: left;
+}
+
+.footer-section-text img {
+  margin-bottom: 16px;
+}
+
+.footer-item-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.footer-item-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.footer-icon img {
+  margin-right: 24px;
+}
+
+.twit {
+  margin-bottom: 10px;
 }
