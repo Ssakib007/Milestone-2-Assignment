@@ -105,6 +105,8 @@
     border-radius: 14px;
   }
 
+  /* footer related styles */
+
   .footer-section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
