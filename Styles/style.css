@@ -4,17 +4,14 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  /* border: 2px solid red; */
   max-width: 1440px;
   justify-items: center;
 }
 body {
-  /* border: 2px dashed blue; */
   max-width: 1140px;
   background-color: #f8f8fc;
 }
 header {
-  /* border: 2px solid blueviolet; */
   margin-top: 25px;
   margin-bottom: 115px;
 }
@@ -122,10 +119,19 @@ header {
 
 .trusted-badge {
   position: absolute;
-  top: -120px;
+  top: -130px;
   left: 400px;
   width: 260px;
   height: auto;
+  animation: rotate 5s linear infinite;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .plant-lover-text p {
@@ -183,6 +189,9 @@ header {
   width: 100%;
   text-align: center;
   border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .deal-box2 {
@@ -193,6 +202,9 @@ header {
   width: 100%;
   text-align: center;
   border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .deal-box3 {
   grid-column: 2;

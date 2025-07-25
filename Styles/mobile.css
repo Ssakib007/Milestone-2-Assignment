@@ -61,6 +61,27 @@
     row-gap: 30px;
     padding: 20px;
   }
+
+  /* plant lover section related style */
+  .plant-lover {
+    flex-direction: column;
+    gap: 20px;
+    justify-items: flex-start;
+    width: 100%;
+    padding: 17px;
+  }
+
+  .trusted-badge {
+    display: none;
+  }
+  .flower-store {
+    width: 100%;
+  }
+
+  .plant-lover-text {
+    justify-items: left;
+  }
+  
   /* latest deal related styles */
   .latest-deal-title {
     margin-bottom: 16px;
@@ -83,6 +104,7 @@
     width: 100%;
     height: 580px;
     margin-bottom: 40px;
+    padding: 20px;
   }
 
   .deal-box1,
@@ -114,19 +136,5 @@
     margin-bottom: 50px;
     margin-left: 20px;
     margin-right: 20px;
-  }
-
-  .plant-lover {
-    flex-direction: column;
-    gap: 20px;
-    justify-items: flex-start;
-    width: 100%;
-  }
-
-  .trusted-badge {
-    display: none;
-  }
-  .flower-store {
-    width: 100%;
   }
 }
