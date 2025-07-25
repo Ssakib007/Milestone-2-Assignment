@@ -111,9 +111,22 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 32px;
-    width: 100% - calc(40px);
     margin-bottom: 50px;
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .plant-lover {
+    flex-direction: column;
+    gap: 20px;
+    justify-items: flex-start;
+    width: 100%;
+  }
+
+  .trusted-badge {
+    display: none;
+  }
+  .flower-store {
+    width: 100%;
   }
 }
